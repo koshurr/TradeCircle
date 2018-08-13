@@ -1,0 +1,106 @@
+*{
+	font-size: 14pt;
+	font-family: "Verdana", "Geneva", sans-serif;
+	
+}
+h1{
+    font-size: 28pt;
+    text-align: center
+}
+body{
+	background-color: white;
+/*	background-image: url("background.img");
+    background-repeat: repeat-x;*/
+
+}
+#book{
+width:300px;
+border-style: solid;
+float: left;
+background-color: white;
+margin: 1%;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+	border-style: solid;
+	left: 0px;
+	background-color: white;
+	z-index: -1;
+}
+
+#signup, #login{
+
+	background-color: white;
+		border-style: solid;
+		margin: 2%;
+}
+ 
+p{
+   
+   color: #333;
+   font-size: 1em;
+   line-height: 1.4;
+   margin: 0;
+   padding: 0;
+}
+/*
+background: rgb(222, 253, 255);
+*/
+#Menu a:hover{
+	background-color:#6666AA;
+}
+#Menu ul:child{
+	float: right;
+}
+#Menu li{
+	display: inline;
+	margin-right: 1em;
+	text-align: center;
+	padding: 0.5em;
+	border-style: solid;
+	background-color: white;
+}
+#Heading{
+	margin:10px;
+	border-style: solid;
+	background-color:white;
+}
+#Courses {
+	margin:1.5%;
+	margin-left: 2%;
+    float: left;
+    width: 10%;
+    border-style: solid;
+	background-color:white;
+}
+ul{
+	list-style-type:none;
+}
+ol{
+	list-style-type:none;
+	text-align: right;
+	margin: 2%;
+}
+img{
+	height:50px;
+	width:75px;
+	float:left;
+}
+#inventory > p{
+	float:right;
+	font:10pt;
+}
+
+#inventory{
+	background-color:white;
+	margin:1%;
+	margin-right:50px;
+    margin-left: auto;
+	width:37%;
+	float:right;
+	border-style:solid;
+	height: 125px;
+}
